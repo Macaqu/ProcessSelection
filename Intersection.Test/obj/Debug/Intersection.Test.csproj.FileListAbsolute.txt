@@ -1,0 +1,7 @@
+c:\users\lalu\documents\visual studio 2010\Projects\Intersection\Intersection.Test\bin\Debug\Intersection.Test.dll
+c:\users\lalu\documents\visual studio 2010\Projects\Intersection\Intersection.Test\bin\Debug\Intersection.Test.pdb
+c:\users\lalu\documents\visual studio 2010\Projects\Intersection\Intersection.Test\bin\Debug\Intersection.dll
+c:\users\lalu\documents\visual studio 2010\Projects\Intersection\Intersection.Test\bin\Debug\Intersection.pdb
+c:\users\lalu\documents\visual studio 2010\Projects\Intersection\Intersection.Test\obj\Debug\Intersection.Test.csprojResolveAssemblyReference.cache
+c:\users\lalu\documents\visual studio 2010\Projects\Intersection\Intersection.Test\obj\Debug\Intersection.Test.dll
+c:\users\lalu\documents\visual studio 2010\Projects\Intersection\Intersection.Test\obj\Debug\Intersection.Test.pdb

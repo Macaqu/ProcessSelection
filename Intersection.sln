@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection", "Intersection\Intersection.csproj", "{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection.Test", "Intersection.Test\Intersection.Test.csproj", "{8BF6E23E-2255-414D-9A59-6FEBAD57F79D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A72E251-EAB6-480A-998A-018ACA27A944}"
+	ProjectSection(SolutionItems) = preProject
+		Intersection.vsmdi = Intersection.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Intersection.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF6E23E-2255-414D-9A59-6FEBAD57F79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF6E23E-2255-414D-9A59-6FEBAD57F79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF6E23E-2255-414D-9A59-6FEBAD57F79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF6E23E-2255-414D-9A59-6FEBAD57F79D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

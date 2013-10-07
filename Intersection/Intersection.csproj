@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Intersection</RootNamespace>
+    <AssemblyName>Intersection</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intersection.Casting\CastingType.cs" />
+    <Compile Include="Intersection.Casting\CentrifugalCasting.cs" />
+    <Compile Include="Intersection.Casting\CeramicMouldCasting.cs" />
+    <Compile Include="Intersection.Casting\CoInjection.cs" />
+    <Compile Include="Intersection.Casting\ColdDieCasting.cs" />
+    <Compile Include="Intersection.Casting\ElectrochemicalMachining.cs" />
+    <Compile Include="Intersection.Casting\ElectrochemicalPolishing.cs" />
+    <Compile Include="Intersection.Casting\ElectroChemiclGrinding.cs" />
+    <Compile Include="Intersection.Casting\GravityMoulding.cs" />
+    <Compile Include="Intersection.Casting\HotDieCasting.cs" />
+    <Compile Include="Intersection.Casting\ICasting.cs" />
+    <Compile Include="Intersection.Casting\InjectionMolding.cs" />
+    <Compile Include="Intersection.Casting\InvestmentCasting.cs" />
+    <Compile Include="Intersection.Casting\LostFoamCasting.cs" />
+    <Compile Include="Intersection.Casting\PlasterMoldCasting.cs" />
+    <Compile Include="Intersection.Casting\PowderMetallurgy.cs" />
+    <Compile Include="Intersection.Casting\ReactionInjection.cs" />
+    <Compile Include="Intersection.Casting\SandCasting.cs" />
+    <Compile Include="Intersection.Casting\ShellMoulding.cs" />
+    <Compile Include="Intersection.Casting\SlushCasting.cs" />
+    <Compile Include="Intersection.Casting\TransferMolding.cs" />
+    <Compile Include="Intersection.Lists\CastingList.cs" />
+    <Compile Include="Intersection.Materials\MaterialType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Intersection.Common\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
