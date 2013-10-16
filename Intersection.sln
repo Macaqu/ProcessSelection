@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection", "Intersection\Intersection.csproj", "{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Process", "Intersection\Process.csproj", "{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection.Test", "Intersection.Test\Intersection.Test.csproj", "{8BF6E23E-2255-414D-9A59-6FEBAD57F79D}"
 EndProject

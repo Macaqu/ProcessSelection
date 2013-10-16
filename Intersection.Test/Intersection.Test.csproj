@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Intersection\Intersection.csproj">
+    <ProjectReference Include="..\Intersection\Process.csproj">
       <Project>{BEA6B3B5-5228-4EEC-9E37-E39F3C9ADA3F}</Project>
-      <Name>Intersection</Name>
+      <Name>Process</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

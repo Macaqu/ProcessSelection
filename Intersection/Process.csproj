@@ -40,34 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Intersection.Casting\CastingType.cs" />
-    <Compile Include="Intersection.Casting\CentrifugalCasting.cs" />
-    <Compile Include="Intersection.Casting\CeramicMouldCasting.cs" />
-    <Compile Include="Intersection.Casting\CoInjection.cs" />
-    <Compile Include="Intersection.Casting\ColdDieCasting.cs" />
-    <Compile Include="Intersection.Casting\ElectrochemicalMachining.cs" />
-    <Compile Include="Intersection.Casting\ElectrochemicalPolishing.cs" />
-    <Compile Include="Intersection.Casting\ElectroChemiclGrinding.cs" />
-    <Compile Include="Intersection.Casting\GravityMoulding.cs" />
-    <Compile Include="Intersection.Casting\HotDieCasting.cs" />
-    <Compile Include="Intersection.Casting\ICasting.cs" />
-    <Compile Include="Intersection.Casting\InjectionMolding.cs" />
-    <Compile Include="Intersection.Casting\InvestmentCasting.cs" />
-    <Compile Include="Intersection.Casting\LostFoamCasting.cs" />
-    <Compile Include="Intersection.Casting\PlasterMoldCasting.cs" />
-    <Compile Include="Intersection.Casting\PowderMetallurgy.cs" />
-    <Compile Include="Intersection.Casting\ReactionInjection.cs" />
-    <Compile Include="Intersection.Casting\SandCasting.cs" />
-    <Compile Include="Intersection.Casting\ShellMoulding.cs" />
-    <Compile Include="Intersection.Casting\SlushCasting.cs" />
-    <Compile Include="Intersection.Casting\TransferMolding.cs" />
-    <Compile Include="Intersection.Lists\CastingList.cs" />
-    <Compile Include="Intersection.Materials\MaterialType.cs" />
+    <Compile Include="Process.Process\Process.cs" />
+    <Compile Include="Process.Properties\AchievedSurfaceRoughness.cs" />
+    <Compile Include="Process.Properties\AchievedTolerance.cs" />
+    <Compile Include="Process.Properties\EnvelopeSize.cs" />
+    <Compile Include="Process.Properties\Thickness.cs" />
+    <Compile Include="Process.Lists\ProcessList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Intersection.Common\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
